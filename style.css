@@ -809,13 +809,19 @@
   .header .header__top .container .menu__icon-active .strip-top {
     -webkit-transform: rotate(45deg);
             transform: rotate(45deg);
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
   }
   .header .header__top .container .menu__icon-active .strip-middle {
     opacity: 0;
+    -webkit-transition: 0s;
+    transition: 0s;
   }
   .header .header__top .container .menu__icon-active .strip-bottom {
     -webkit-transform: rotate(-45deg);
             transform: rotate(-45deg);
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
   }
   .header .header__top .container .menu__body {
     position: fixed;

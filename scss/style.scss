@@ -610,11 +610,6 @@
 }
 
 
-// @media screen and (max-width: 1600px) {
-
-// }
-
-
 @media screen and (max-width: 1365px) {
 
 //! Шапка
@@ -650,12 +645,15 @@
                     }
                     .strip-top {
                         transform: rotate(45deg);
+                        transition: all 0.3s ease 0s;
                     }
                     .strip-middle {
                         opacity: 0;
+                        transition: 0s;
                     }
                     .strip-bottom {
                         transform: rotate(-45deg);
+                        transition: all 0.3s ease 0s;
                     }
                 }
 
@@ -812,8 +810,6 @@
                         font-size: 16px;
                         line-height: 24px;
                         margin-bottom: 67.2px;
-                    }
-                    .alivio__bottom {
                     }
                 }
             }
