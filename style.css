@@ -818,8 +818,8 @@
     transition: 0s;
   }
   .header .header__top .container .menu__icon-active .strip-bottom {
-    -webkit-transform: rotate(-45deg);
-            transform: rotate(-45deg);
+    -webkit-transform: rotate(135deg);
+            transform: rotate(135deg);
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
   }
