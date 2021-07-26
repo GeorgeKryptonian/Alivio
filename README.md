@@ -1,1 +1,1 @@
-*Ссылка на проект - https://georgekryptonian.github.io/Alivio/*
+*Link to the project - https://georgekryptonian.github.io/Alivio/*
